@@ -11,6 +11,7 @@ enviornments.staging = {
   httpPort: 3000,
   httpsPort: 3001,
   envName: "staging",
+  hashingSecret: "This is A SecrEt",
 };
 
 // Production env
@@ -18,6 +19,7 @@ enviornments.production = {
   httpPort: 5000,
   httsPort: 5001,
   envName: "production",
+  hashingSecret: "This is aLsO A SecrEt",
 };
 
 // Detemine the environment
